@@ -16,6 +16,10 @@ time {
   font-size: 0.8em;
 }
 
+img {
+  aspect-ratio: 2.33;
+}
+
 header {
   margin: 1em 0 1em;
   text-align: center;

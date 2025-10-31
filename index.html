@@ -98,7 +98,15 @@
         <h1>
           Pageload Delays Triple when Developers Forget to Check WebPageTest
         </h1>
-        <img src="dog.jpg" loading="lazy" />
+        <img
+          src="./images/dog.webp"
+          srcset="
+            ./images/dog.webp            2000w,
+            ./images/dog-1640w-703w.webp 1640w,
+            ./images/dog-1180w-506w.webp 1180w,
+            ./images/dog-270w-116w.webp   270w
+          "
+        />
         <p>
           Users are alarmed by increased webpage loading times, noting that
           helpful tools are "literally right here." <a href="#">Full Story</a>
@@ -107,11 +115,27 @@
       <section class="headlines-secondary">
         <article>
           <h2>JavaScript Frameworks Forecast Imminent First Input Delay</h2>
-          <img src="delays.jpg" alt="" />
+          <img
+            src="./images/delays.webp"
+            srcset="
+              ./images/delays.webp            2000w,
+              ./images/delays-1640w-703w.webp 1640w,
+              ./images/delays-1180w-506w.webp 1180w,
+              ./images/delays-270w-116w.webp   270w
+            "
+          />
         </article>
         <article>
           <h2>Service Workers Respond as Requests Increasingly Mount</h2>
-          <img src="serviceworkers.jpg" importance="low" alt="" />
+          <img
+            src="./images/serviceworkers.webp"
+            srcset="
+              ./images/serviceworkers.webp            2000w,
+              ./images/serviceworkers-1640w-703w.webp 1640w,
+              ./images/serviceworkers-1180w-506w.webp 1180w,
+              ./images/serviceworkers-270w-116w.webp   270w
+            "
+          />
         </article>
       </section>
     </main>
