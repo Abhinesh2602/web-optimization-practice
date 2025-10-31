@@ -8,7 +8,6 @@ body {
   color: #222;
   box-sizing: border-box;
 }
-
 time {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -144,6 +143,7 @@ marquee {
   margin: 1rem 0;
   padding: 1em 2em;
   background-color: #eee;
+  aspect-ratio: 2.33;
 }
 
 main a,
